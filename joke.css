@@ -1,0 +1,20 @@
+.shadows-into-light-regular {
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#content {
+    padding: 10px;
+    border: solid black 2px;
+}
+
+#new_button {
+    border-radius: 5px;
+    background-color: white;
+}
+
+#joke {
+    margin-top: 10px;
+    font-size: large;
+}
