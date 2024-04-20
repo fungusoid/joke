@@ -1,8 +1,8 @@
+const url = 'https://v2.jokeapi.dev/joke/Programming?type=single';
+const joke = document.getElementById('joke');
+
 function update_joke()
 {
-    const url = 'https://v2.jokeapi.dev/joke/Programming?type=single';
-    const joke = document.getElementById('joke');
-
     fetch(url)
     .then(response => {
         if (!response.ok) {
